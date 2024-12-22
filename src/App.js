@@ -355,7 +355,7 @@ function App() {
                 borderRadius: "25px",
                 height: "30vh",
               }}>
-                <p style={{ height:"20vh", overflow:"hidden",textAlign: "left", margin: 0, fontSize: "1.25rem", color: "#222", padding: "0px", fontFamily: "pretendard", fontWeight: "400" }} >
+                <p style={{ height:"20vh", overflow:"scroll",textAlign: "left", margin: 0, fontSize: "1.25rem", color: "#222", padding: "0px", fontFamily: "pretendard", fontWeight: "400" }} >
                   The project aims to develop a new Social Archiving system that combines a metaverse where a 'virtual self' exists with a system for documenting the 'real self.' In the application Wandar, virtual lands are created based on real-world locations, and users can select their preferred archiving methods to record their memories. Through this process, users can visually express their unique worldview in diverse ways and share it with others.
                 </p>
                 <GLBViewer modelPath={"/wandAR.glb"} />
