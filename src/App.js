@@ -29,7 +29,7 @@ function App() {
   console.log(mode)
   return (
     <div className="App">
-      <div style={{ display: "flex", flex: 1, width: "100%", height: "100vh", boxSizing: "border-box", backgroundColor: "#f1f1f1" }}>
+      <div style={{ display: "flex", flex: 1, width: "100vw", height: "100vh", boxSizing: "border-box", overflow:"hidden", backgroundColor: "#f1f1f1" }}>
         <div style={{
           flex: 1
         }}>
